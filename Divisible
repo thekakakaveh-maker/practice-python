@@ -1,0 +1,15 @@
+number_list = []
+number = int(input("enter your number:"))
+number_list.append(number)
+def separate_even_odd(numbers):
+    even = []
+    odd = []
+    for n in numbers:
+        if n % 2 == 0:
+            even.append(n)
+            print("even",even)
+
+        else:
+            odd.append(n)
+            print("ood",odd)
+separate_even_odd(number_list)

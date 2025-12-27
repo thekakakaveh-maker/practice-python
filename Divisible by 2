@@ -1,8 +1,0 @@
-def even_numbers(numbers):
-    even_numbers = []
-    for number in numbers:
-        if number % 2 == 0:
-            even_numbers.append(number)
-    return even_numbers
-
-print(even_numbers([1, 15, 14, 47, 26, 26,26]))
